@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Q3PROJECT</title>
+</head>
+<body>
+
+<style>
+
+    body {
+    background-image: url(  https://img.freepik.com/free-vector/winter-blue-pink-gradient-background-vector_53876-117275.jpg?semt=ais_hybrid);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+                   * {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: bold;
+}
+
+
+  html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+</style>
+
+  
+
+    <nav style="background-color: white; height: 60px; " class="navbar navbar-expand-md fixed-top">
+        <!-- brand/logo -->
+    <div class="container-fluid">
+
+
+        <!-- Add links -->
+        <div class="collapse navbar-collapse">
+            <u1 style="color: black;" class="navbar-nav me-auto">
+                
+                <img style="margin-right:16px; height: 45px;" src="https://www.lrta.gov.ph/wp-content/uploads/2020/05/LRTA-LOGO.png" alt="logo"> 
+              
+                <li class="nav-item">
+                    <a style="margin-right:13px; margin-top: 7px;" class="nav-link" href="home.html">Home</a>
+                </li>
+                <br>
+                <li class="nav-item">
+                    <a style="margin-right:13px; margin-top: 7px;"class="nav-link" href="page2.html"> Transit Schedule</a>
+                </li>
+                <br>
+                <li class="nav-item">
+                    <a style="margin-right:200px; margin-top: 7px;" class="nav-link" href="page3.html"> Feedback</a>
+                </li>
+
+                <a style="color: lightgray; font-size: 15px; margin-left: 5-px; margin-top: 18px;"> 
+                L I G H T - R A I L -  T R A N S P O R T   - A U T H O R I T Y</a>
+
+            </u1>
+            <!-- Add a search bar -->
+            <form class="d-flex">
+                <input style="margin-right:70px; width:200px;" class="form-control" type="text" placeholder="search..."> 
+                              <br></br>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<br> <br> <br> <br> <br>
+
+<img style="max-width: 100%; height: 135.5px;" src="LRTPICTURE.jpg" alt="LRTPICTU">
+ 
+ <br>
+ <br>
+
+<center>
+
+<img style="height: 250px; width: 950px; border-radius: 12px;" src="https://lrmc.ph/wp-content/uploads/2024/11/Gen-4-Route-Map-27.5-%C3%97-7.5-in-1-1.png?w=640" alt="lrtmap"> 
+
+</center>
+
+<br>
+<br>
+
+<div style="background-color: rgba(0, 0, 0, 0.2);
+                    font-family: Lexend;
+                    width: 700px;
+                    height: auto;
+                    padding: 10px;
+                    border-color: white;
+                    border-radius: 12px;
+                    box-shadow: 2px 2px 5px rgb(0,0,0, 0.0);
+                    margin: auto;
+                    text-align: center;" class="container2">
+
+<br>
+
+    <div class="container">
+        <center>
+
+            <center>
+<a style=" font-size: 50px;"> Ticketing Form </a> <br>
+</center> 
+
+                <br>
+
+                <label style="margin-bottom: 27px;">Departure: </label> <br>
+                <select class="form-select" id="leaving" >
+                    <option value="none">Choose</option>
+                    <option value="1">Fernando Poe Jr.</option>
+                    <option value="2">Balintawak</option>
+                    <option value="3">Yamaha Monumento</option>
+                    <option value="4">5th Avenue</option>
+                    <option value="5">R. Papa</option>
+                    <option value="6">Abad Santos</option>
+                    <option value="7">Bluementritt</option>
+                    <option value="8">Tayuman</option>
+                    <option value="9">Bamgbang</option>
+                    <option value="10">Doroteo Jose</option>
+                    <option value="11">Carriedo</option>
+                    <option value="12">Central Terminal</option>
+                    <option value="13">United Nations</option>
+                      <option value="14">Pedro Gil</option>
+                      <option value="15">Quirino</option>
+                     <option value="16">Vito Cruz</option>
+   <option value="17">Gil Puyat</option>
+      <option value="18">Libertad</option>
+         <option value="19">EDSA</option>
+            <option value="20">Baclaran</option>
+               <option value="21">Redemptorist-Aseana</option>
+                        <option value="22">MIA Road</option>
+                        <option value="23">PITX</option>
+                        <option value="24">Ninoy Aquino Avenue</option>
+                        <option value="25">Dr. Santos (Formerly Sucat)</option>
+                </select>
+
+                   <br><br>
+
+                <label style="margin-bottom: 27px;">Arrival: </label> <br>
+                <select class="form-select" id="going" >
+                            <option value="none">Choose</option>
+                    <option value="1">Fernando Poe Jr.</option>
+                    <option value="2">Balintawak</option>
+                    <option value="3">Yamaha Monumento</option>
+                    <option value="4">5th Avenue</option>
+                    <option value="5">R. Papa</option>
+                    <option value="6">Abad Santos</option>
+                    <option value="7">Bluementritt</option>
+                    <option value="8">Tayuman</option>
+                    <option value="9">Bamgbang</option>
+                    <option value="10">Doroteo Jose</option>
+                    <option value="11">Carriedo</option>
+                    <option value="12">Central Terminal</option>
+                    <option value="13">United Nations</option>
+                      <option value="14">Pedro Gil</option>
+                      <option value="15">Quirino</option>
+                     <option value="16">Vito Cruz</option>
+   <option value="17">Gil Puyat</option>
+      <option value="18">Libertad</option>
+         <option value="19">EDSA</option>
+            <option value="20">Baclaran</option>
+               <option value="21">Redemptorist-Aseana</option>
+                        <option value="22">MIA Road</option>
+                        <option value="23">PITX</option>
+                        <option value="24">Ninoy Aquino Avenue</option>
+                        <option value="25">Dr. Santos (Formerly Sucat)</option>
+                </select>
+                <br><br>
+
+
+                <label style="margin-bottom: 27px;">Age group: </label> <br>
+                <select class="form-select" id="age" > <br>
+                    <option value="none">Choose</option>
+                    <option value="1">Adult</option>
+                    <option value="0.8">Senior</option>
+                </select>
+                <br><br>
+
+                <button style="width: 30%;" type="button" class="btn btn-dark" onclick="showValue()">Ticket Pricing</button>
+
+    
+            <br><br>
+
+            <script>
+function showValue() {
+    var departureStation = document.getElementById('leaving').value;
+    var arrivalStation = document.getElementById('going').value;
+    var discount = document.getElementById('age').value
+
+ 
+    if (departureStation     === 'none' || arrivalStation   === 'none') {
+      document.getElementById("show").innerHTML = "₱0.00";
+    }
+
+    var distance = Math.abs(arrivalStation - departureStation);
+    let fare = 0;
+
+    if (distance === 1) {
+      fare = 13;
+    } else if (distance === 2) {
+      fare = 13;
+    } else if (distance === 3) {
+      fare = 16;
+    } else if (distance === 4) {
+      fare = 16;
+    } else if (distance === 5) {
+      fare = 20;
+    } else if (distance === 6) {
+      fare = 20;
+    } else if (distance === 7) {
+      fare = 20;
+    } else if (distance === 8) {
+      fare = 24;
+    } else if (distance === 9) {
+      fare = 24;
+    } else if (distance === 10) {
+      fare = 24;
+    } else if (distance === 11) {
+      fare = 28;
+    } else if (distance === 12) {
+      fare = 28;
+    } else if (distance === 13) {
+      fare = 28;
+     } else if (distance === 14) {
+      fare = 30;
+    } else if (distance === 15) {
+      fare = 30;
+    } else if (distance === 16) {
+      fare = 30;
+       } else if (distance === 17) {
+      fare = 33;
+    } else if (distance === 18) {
+      fare = 33;
+    } else if (distance === 19) {
+      fare = 33;
+       } else if (distance === 20) {
+      fare = 37;
+    } else if (distance === 21) {
+      fare = 37;
+    } else if (distance === 22) {
+      fare = 37;
+       } else if (distance === 23) {
+      fare = 40;
+    } else if (distance === 24) {
+      fare = 40;
+    } else if (distance === 25) {
+      fare = 40;
+
+
+    // Make the fare have two decimal places
+    var finalfare = fare * discount
+
+    document.getElementById("show").innerHTML = "₱" + finalfare;
+  }
+
+                
+            </script>
+
+          <p style="color: black;" id="show">Ticket Price: </p>
+
+        </center>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<div style="background-color: rgba(8, 28, 76);
+                    font-family: Lexend;
+                    width: auto;
+                    height: 95px;
+                    margin: auto;
+                    text-align: center;" class="container2">
+<br>
+<center>
+             <footer>
+
+              <p style="margin-top: 9px; color: lightgray; font-size: 15px"> This is only a mock-up LRT-1 website which is currently functioning as our FINAl PROJECT for ICT9 3rd quarter. <br>
+    
+              <a href="mailto:agudo.js@obmontessori.edu.ph"> The Devs: Jairo Agudo, Gavin Francisco </a></p>
+              <br>
+             
+            </footer>
+        </center>
+
+</body>
+</html>
